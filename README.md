@@ -89,18 +89,24 @@ Models were rigorously evaluated using cross-validation and assessed on <b>Accur
 
 <p>
 The model comparison revealed that the <b>Random Forrest Classifier</b> provided the best balance of performance and efficiency, achieving a final Accuracy of 
-<b>[XX.X]%</b>.
+<b>93%</b>.
 </p>
 
 <ul>
-  <li><b>Key Predictors:</b> [Feature 1], [Feature 2], [Feature 3]</li>
+  <li><b>Top 5 Key Predictors:</b> Customer Street, Order City, Order Day, Order Status, Order Month</li>
   <li><b>Model Performance:</b> The final model demonstrated strong recall in identifying delayed shipments — critical for proactive logistics.</li>
 </ul>
 
   <p align="center">
-<img src="https://i.imgur.com/4SpMS12.png" height="80%" width="80%" alt="Decision Tree Classifier"/>
+<img src="https://i.imgur.com/4SpMS12.png" height="50%" width="50%" alt="Decision Tree Classifier"/>
 <br />
-<i>Figure 2: Decision Tree Classifier Confusion Matrix</i>
+<i>Figure 5: Decision Tree Classifier Confusion Matrix</i>
+</p>
+
+  <p align="center">
+<img src="https://i.imgur.com/0edLBBD.png" height="80%" width="80%" alt="Feature Importance by Ranking"/>
+<br />
+<i>Figure 5: Top 15 Most Important Features</i>
 </p>
 
 <hr>
@@ -134,14 +140,6 @@ The insights from this model empower the sporting goods store to take specific, 
   <li><b>/Supply Chain ML.ipynb:</b> Complete Jupyter Notebook with Python code, data analysis, and model development.</li>
   <li><b>/Supply Chain Report.pdf:</b> Formal report detailing background, methodology, and findings.</li>
 </ul>
-
-
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-
 
 <!--
  ```diff
