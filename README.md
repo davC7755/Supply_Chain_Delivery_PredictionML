@@ -20,7 +20,7 @@ Each row represents a single shipment with features including:
 </p>
 
 <ul>
-  <li><i>(User: Please add 3–5 key features from your dataset here)</i></li>
+
   <li>Carrier</li>
   <li>Origin_Port</li>
   <li>Warehouse_Location</li>
@@ -53,9 +53,29 @@ Each row represents a single shipment with features including:
 <p>Four classification models were trained and evaluated to identify the best-performing algorithm for this business problem:</p>
 <ul>
   <li>Decision Tree Classifier</li>
+  <p align="center">
+<img src="https://i.imgur.com/wPBmWrG.png" height="80%" width="80%" alt="Decision Tree Classifier"/>
+<br />
+<i>Figure 2: Decision Tree Classifier</i>
+</p>
   <li>Random Forest Classifier</li>
+  <p align="center">
+<img src="https://i.imgur.com/TY71sDA.png" height="80%" width="80%" alt="Random Forest Classifier"/>
+<br />
+<i>Figure 2: Random Forest Classifier</i>
+</p>
   <li>LightGBM (LGBM) Classifier</li>
+  <p align="center">
+<img src="https://i.imgur.com/VqQ1zuX.png" height="80%" width="80%" alt="LightGBM (LGBM) Classifier"/>
+<br />
+<i>Figure 2: LightGBM (LGBM) Classifier</i>
+</p>
   <li>XGBoost (XGB) Classifier</li>
+  <p align="center">
+<img src="https://i.imgur.com/h3hPKgR.png" height="80%" width="80%" alt="XGBoost (XGB) Classifier"/>
+<br />
+<i>Figure 2: XGBoost (XGB) Classifier</i>
+</p>
 </ul>
 
 <p>
@@ -65,10 +85,10 @@ Models were rigorously evaluated using cross-validation and assessed on <b>Accur
 <hr>
 
 <h2>4. Key Findings & Results</h2>
-<p><i>(User: Please update this section with your final results from the report/notebook)</i></p>
+
 
 <p>
-The model comparison revealed that the <b>XGBoost Classifier</b> provided the best balance of performance and efficiency, achieving a final Accuracy of 
+The model comparison revealed that the <b>Random Forrest Classifier</b> provided the best balance of performance and efficiency, achieving a final Accuracy of 
 <b>[XX.X]%</b>.
 </p>
 
@@ -77,7 +97,11 @@ The model comparison revealed that the <b>XGBoost Classifier</b> provided the be
   <li><b>Model Performance:</b> The final model demonstrated strong recall in identifying delayed shipments — critical for proactive logistics.</li>
 </ul>
 
-<p><i>(Placeholder: Add a screenshot of your best model’s confusion matrix or performance plot here.)</i></p>
+  <p align="center">
+<img src="https://i.imgur.com/4SpMS12.png" height="80%" width="80%" alt="Decision Tree Classifier"/>
+<br />
+<i>Figure 2: Decision Tree Classifier Confusion Matrix</i>
+</p>
 
 <hr>
 
@@ -111,29 +135,7 @@ The insights from this model empower the sporting goods store to take specific, 
   <li><b>/Supply Chain Report.pdf:</b> Formal report detailing background, methodology, and findings.</li>
 </ul>
 
-<br>
-<p align="center">
-  <i>Example Visual
 
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
 <br />
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
